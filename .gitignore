@@ -1,0 +1,22 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+
+# Coverage reports (if using a testing tool like Jest)
+coverage/
+
+# Build or dist folder (if you have a build process for the server)
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore uploads folder
+server/uploads
