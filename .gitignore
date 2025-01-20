@@ -19,4 +19,4 @@ build/
 Thumbs.db
 
 # Ignore uploads folder
-server/uploads
+uploads/
