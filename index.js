@@ -22,6 +22,7 @@ app.use(
     credentials:true,
 })
 )
+app.options('*', cors());
 
 app.use("/uploads/profiles",express.static("uploads/profiles"));
 app.use("/uploads/fileS", express.static("uploads/files"));
